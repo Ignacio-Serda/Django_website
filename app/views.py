@@ -18,3 +18,6 @@ def variables(request):
         "lista":[1,23,4],
     }
     return render(request, "template1.html", context=contexto)
+
+def fachero(request):
+    return render(request, "index.html")
